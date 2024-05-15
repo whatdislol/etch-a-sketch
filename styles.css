@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 2px solid green;
+    flex-direction: column;
+}
+
+.row,
+.pixel{
+    display: flex;
+    flex: 1;
+}
+
+.pixel{
+    box-sizing: border-box;
+    background-color: red;
+    border: 1px solid black;
+}
